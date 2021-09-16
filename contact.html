@@ -39,11 +39,11 @@
         <form>
             <div class="form-group">
               <label for="exampleFormControlInput1">Correo electrónico</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <input type="email" class="form-control" id="correo" placeholder="name@example.com">
             </div>
             <div class="form-group">
               <label for="exampleFormControlSelect1">¿Cual Traposo te acompañará?</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <select class="form-control" id="eleccion">
                 <option>Serena</option>
                 <option>Ruperto</option>
                 <option>Octavia</option>
@@ -53,7 +53,7 @@
             </div>
             <div class="form-group">
               <label for="exampleFormControlSelect2">¿Cuantas veces por semana vendrás a teriapia con tu traposo?</label>
-              <select multiple class="form-control" id="exampleFormControlSelect2">
+              <select multiple class="form-control" id="frecuencia">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -63,14 +63,15 @@
             </div>
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Cuentanos la copucha!</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" id="copucha" rows="3"></textarea>
             </div>
             <div class="form-group">
                 <label for="">Genero</label>
-                <input  type="radio" name="genero">Femenino
-                <input type="radio" name="genero">Masculino
-                <input type="radio" name="genero"> No Binario
+                <input  type="radio" name="genero" value="Femenino">Femenino
+                <input type="radio" name="genero" value="Masculino">Masculino
+                <input type="radio" name="genero" value="No Binario"> No Binario
             </div>
+            <input value="Enviar" type="submit">
           </form>
     </div>
  
@@ -83,5 +84,8 @@
         <div class="col"></div>
     </div>
 </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="estructura.js"></script>
 </body>
 </html>
